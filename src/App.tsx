@@ -1,6 +1,5 @@
 import MetaMaskOnboarding from '@metamask/onboarding';
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import { ASSET_URL, CHOSEN_THEME } from './constants'
 import logo from './static/images/logo.png';
 import './static/styles/App.css';
@@ -8,7 +7,7 @@ import footer from './static/images/footer.png';
 import { iframeResizer } from 'iframe-resizer'
 //import IframeResizer from 'iframe-resizer-react'
 import './static/styles/App.css';
-import {MDCRipple} from '@material/ripple';
+
 
 //import * as Web3 from 'web3'
 //import { OpenSeaPort, Network } from 'opensea-js'
@@ -18,6 +17,7 @@ const ONBOARD_TEXT = 'Click here to install MetaMask!';
 const CONNECT_TEXT = 'Connect';
 const CONNECTED_TEXT = 'Connected';
 const embeddedUrl = `${ASSET_URL}?embed=${CHOSEN_THEME}`
+
 declare global {
     interface Window {
         ethereum:any;
