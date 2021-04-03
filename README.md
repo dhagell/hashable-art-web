@@ -11,6 +11,8 @@ Embed a fully functional OpenSea marketplace on Hashable.Art in 3 quick steps! [
 
 Run `yarn` to install dependencies.
 
+Run yarn add @metamask/onboarding
+
 ### Configuration
 
 Edit `constants.ts` to
